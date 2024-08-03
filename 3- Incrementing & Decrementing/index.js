@@ -4,4 +4,18 @@ let myPoints = 3;
 // add/remove points to/from the myPoints variable
 
 // Call the functions to that the line below logs out 10
+
+function add3points() {
+  myPoints += 3;
+}
+
+function remove1Point() {
+  myPoints -= 1;
+}
+
+add3points();
+add3points();
+add3points();
+remove1Point();
+remove1Point();
 console.log(myPoints);
